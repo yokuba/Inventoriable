@@ -7,6 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore the default Postgresql database.
+/db/*.pg
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -15,3 +18,10 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*˜
+.project
+.DS Store
