@@ -1,5 +1,6 @@
 class Inventory < ApplicationRecord
-  has_many :users
+  belongs_to :user
   validates :title, presence: true
   validates :description, presence: true
+  validates :user_id, presence: true
 end
